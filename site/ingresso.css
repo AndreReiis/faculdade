@@ -1,0 +1,82 @@
+/* estil.css */
+
+/* Resetando algumas configurações padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando o body */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    background-color: #f0f0f0; /* Cor de fundo suave */
+    color: #333; /* Cor do texto em cinza escuro */
+}
+
+.comprar-button {
+    padding: 15px;
+    background-color: black ;
+    color: red;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: black; /* Fundo preto */
+    color: white; /* Texto branco */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilizando a navegação */
+nav {
+    background-color: #333; /* Fundo cinza escuro */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white; /* Texto dos links em branco */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    margin: 0 15px; /* Espaçamento entre os links */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estilizando a seção principal */
+main {
+    padding: 20px;
+    background-color: white; /* Fundo branco */
+    max-width: 600px; /* Limita a largura do conteúdo */
+    margin: 20px auto; /* Centraliza o conteúdo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil ao redor */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilizando os botões */
+button {
+    background-color: black; /* Fundo preto para o botão */
+    color: white; /* Texto do botão em branco */
+    border: none; /* Remove a borda padrão */
+    padding: 5px 10px; /* Espaçamento interno */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    font-size: 16px; /* Tamanho da fonte */
+    border-radius: 3px; /* Bordas arredondadas */
+}
+
+button:hover {
+    background-color: #555; /* Fundo cinza escuro ao passar o mouse */
+}
+
+/* Estilizando o rodapé */
+footer {
+    background-color: black; /* Fundo preto */
+    color: white; /* Texto branco */
+    text-align: center;
+    padding: 10px;
+    position: relative; /* Para posicionamento */
+    bottom: 0; /* Alinha ao fundo da página */
+    width: 100%; /* Largura total */
+}

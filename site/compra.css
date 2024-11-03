@@ -1,0 +1,35 @@
+/* Estilos do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4; /* Cor de fundo cinza claro */
+}
+
+/* Estilos do formulário */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao redor do formulário */
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Estilos dos rótulos dos campos */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px; /* Espaço entre o rótulo e o campo */
+}
+
+/* Estilos dos campos de entrada */
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc
+}

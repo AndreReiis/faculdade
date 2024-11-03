@@ -1,0 +1,82 @@
+/* Estilo básico para a página */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* Fundo preto */
+    color: #fff; /* Texto branco */
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ddd;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    background-color: #333;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+}
+
+ul li a:hover {
+    color: #ccc;
+}
+
+footer {
+    background-color: #333;
+    color: #ddd;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
