@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="compra.css">
 </head>
 <body>
-
-    <form action="processar.php" method="POST"> 
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <h1> Informe Seus Dados de Pagamento! </h1> 
+    <form action="processar.php" method="POST" style="display: flex; flex-direction: column; padding: 25px; justify-content: center;align-items: center;"> 
     
-        <label for="nome">total de ingressos:</label>
+        <label for="nome">Total de Ingressos:</label>
         <input type="text" id="ingressos" name="ingressos" maxlength="2" required > 
     
         <label for="nome">Nome:</label>
@@ -27,8 +28,9 @@
         <input type="text" id="cvv" name="cvv" maxlength="3" required > <!-- limite 3 caracteres -->
 
         <div class="buttons">
-            <input type="submit" value="Comprar">
-
+            <input type="submit" value="Comprar" style="background-color: black; color:white">
     </form>
+    </div>
+   
 </body>
 </html>

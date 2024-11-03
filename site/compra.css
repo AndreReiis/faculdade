@@ -12,11 +12,14 @@ body {
 /* Estilos do formulário */
 form {
     background-color: #fff;
-    padding: 20px;
+    padding: 35px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao redor do formulário */
     max-width: 400px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Estilos dos rótulos dos campos */
@@ -31,5 +34,10 @@ input[type="text"], input[type="number"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc
+    border: 1px solid #ccc;
+    
+}
+
+input{
+  border-radius: 10px;  
 }
