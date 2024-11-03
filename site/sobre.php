@@ -19,12 +19,15 @@ session_start();
 </nav>
 <main>
     <h2>Equipe de Desenvolvimento</h2>
-    <p>Aqui estão os detalhes dos membros</p><br>
-    <p>Andre Reis Melo</p> <br>
-    <p>Caio brittes</p> <br>
-    <p>Eduardo de Souza</p> <br>
-    <p>Lucas Andrade</p> <br>
-    <p>Pablo hibrain</p>
+    <p>Aqui estão os detalhes dos membros </p><br>
+    <p>Andre Reis Melo - programador PHP </p> <br>
+    <p>Caio brittes - programador PHP </p> <br>
+    <p>Eduardo de Souza - programador PHP/CSS  </p> <br>
+    <p>Lucas Andrade - programador HTML/PHP  </p> <br>
+    <p>Pablo hibrain - programador PHP </p> <br> <br>
+    <p>Estruturas utilizadas</p>
+    <ol><li> SESSION  para realização do login e registro </li>
+    <li>Lógica de programação em PHP e HTML semântico </li></ol>
     
 </main>
 <footer>
