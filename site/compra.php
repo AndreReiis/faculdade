@@ -21,7 +21,7 @@
         <input type="text" id="numero_cartao" name="numero_cartao"  maxlength="16" required>
 
         <label for="validade_cartao">Validade do Cartão (MM/AA):</label>
-        <input type="text" id="validade_cartao" name="validade_cartao" placeholder="MM/AA" maxlength="4" required> <!-- Limite de
+        <input type="text" id="validade_cartao" name="validade_cartao" placeholder="MM/AA" maxlength="4" required > <!-- Limite de
         5 -->
 
         <label for="cvv">CVV:</label>

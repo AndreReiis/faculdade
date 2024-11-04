@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Login</title>
 </head>
 <body>
-    <div class="main-co">
+    <div style="display: flex; flex-direction: column;  justify-content: center; align-items: center; gap: 15px;">
         <h1>Login</h1>
         <main>
             <?php if (isset($erro)) : ?>
